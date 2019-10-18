@@ -1,0 +1,114 @@
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(85deg, #f3e304, #8ff304, #3af304, #04f342, #038d16, #066325, #09b63d, #04f322, #7af304, #e3f304);
+        background-size: 2400% 2400%;
+        -webkit-animation: gradientBG 70s ease infinite;
+        animation: gradientBG 70s ease infinite;
+    }
+    
+    .container {
+        width: 100%;
+        position: absolute;
+        top: 35%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-weight: 900;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #212121;
+    }
+    
+    @-webkit-keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    @keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    .header {
+        padding: 60px;
+        text-align: center;
+        text-shadow: 3px 2px green;
+        background-image: url('autumnwoodheader.jpg');
+        color: black;
+        font-size: 30px;
+        padding: 50px;
+        width: 95%;
+        height: 130px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+    }
+    
+    #header-wrapper {
+        overflow: hidden;
+        background-size: 100%;
+        padding: 6em 0em 2em 20em;
+        background: #333333;
+    }
+    /* The navigation menu links */
+    
+    .sidenav a {
+        padding: 6px 8px 6px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #fc1515;
+        display: block;
+    }
+    /* When you mouse over the navigation links, change their color */
+    
+    p {
+        margin: 100px 500px 500px 600px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    /* mouse over link */
+    
+    a:hover {
+        color: rgb(240, 11, 11);
+    }
+    
+    #footer-wrapper {
+        overflow: hidden;
+        padding: 5em 0em;
+        background: rgb(253, 69, 8);
+    }
+    
+    #footer .title h2 {
+        font-weight: 400;
+        font-size: 1.2em;
+        color: rgb(24, 11, 204);
+    }
+    
+    #footer .title {
+        border-color: #2D2926;
+    }
+    
+    #footer .style1 li {
+        border-color: #2D2926;
+    }
